@@ -21,6 +21,14 @@
             return result;
         }
 
+        /// <summary>
+        /// XOR
+        ///XOR is a logical operator that works on bits.Let’s denote it by ^. If the two bits it takes as input are the same, the result is 0, otherwise it is 1. 
+        ///This implements an exclusive or operation, i.e.exactly one argument has to be 1 for the final result to be 1. We can show this using a truth table:
+        ///For example: 0011 ^ 0101 = 0110
+        /// </summary>
+        /// <param name="A"></param>
+        /// <returns></returns>
         public static int solutionB(int[] A)
         {
             int monMatched = A[0];
