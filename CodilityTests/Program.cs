@@ -1,11 +1,14 @@
 ﻿using CodilityTests.Solutions;
-
+using CodilityTests.Algorithms.Sorting;
 namespace CodilityTests
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
+            //Sorting
+            SortingDriver.Run();
+
             Run();
             Console.WriteLine("Press any key to exit");
             Console.ReadLine();
